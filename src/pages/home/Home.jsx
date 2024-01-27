@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import QrCode from "../qrCode/QrCode";
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
 
        image to pdf
            </button>
+           <QrCode></QrCode>
         </Box>
     );
 };
